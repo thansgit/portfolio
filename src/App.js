@@ -3,6 +3,7 @@ import './App.css';
 import Navigation from './screens/navigationBar/NavigationBar'
 import Particles from 'react-tsparticles';
 import Header from './screens/header/Header';
+import AboutMe from "./screens/aboutMe/AboutMe";
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
             events: {
               onClick: {
                 enable: true,
-                mode: "push",
+                mode: "repulse",
               },
               // onHover: {
               //   enable: true,
@@ -68,6 +69,7 @@ function App() {
           },
         }}
       />
+      <AboutMe />
     </div>
   );
 }
