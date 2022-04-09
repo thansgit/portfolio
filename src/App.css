@@ -13,11 +13,14 @@
   --font-color-hover: hsl(0, 0%, 30%);
 }
 
-.tsparticles-canvas-el {
-  position: inherit !important;
-  min-height: 96vh;
-}
+
 
 #tsparticles {
-  height: 100vh;
+  height: 100vh !important;
+  position: inherit !important;
+}
+
+
+.tsparticles-canvas-el {
+  min-height: 96vh;
 }

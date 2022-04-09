@@ -4,6 +4,7 @@ import Navigation from './screens/navigationBar/NavigationBar'
 import Particles from 'react-tsparticles';
 import Header from './screens/header/Header';
 import AboutMe from "./screens/aboutMe/AboutMe";
+import Technologies from "./screens/technologies/Technologies";
 
 
 function App() {
@@ -12,11 +13,15 @@ function App() {
       <Navigation />
       <Header />
       <Particles
+
         id="tsparticles"
         options={{
+          fullScreen: {
+            enable: false
+          },
           background: {
             color: {
-              value: "#212529",
+              value: 'rgb(34,36,23)',
             },
           },
           fpsLimit: 60,
@@ -69,7 +74,9 @@ function App() {
           },
         }}
       />
+
       <AboutMe />
+      <Technologies />
     </div>
   );
 }
