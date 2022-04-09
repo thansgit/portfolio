@@ -1,7 +1,12 @@
 .portfolio {
     background-color: aqua;
+    
   }
    
+.portfolio__main__container{
+  scroll-margin-top: 100px;
+}
+
   .portfolio__main__container h1, 
   .portfolio__main__container p {
     text-align: center;

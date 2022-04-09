@@ -29,14 +29,14 @@ function App() {
           fpsLimit: 60,
           interactivity: {
             events: {
-              onClick: {
+              onclick: {
                 enable: true,
                 mode: "repulse",
               },
-              // onHover: {
-              //   enable: true,
-              //   mode: "repulse",
-              // },
+              onHover: {
+                enable: true,
+                mode: "grab",
+              },
               resize: true,
             },
             modes: {
