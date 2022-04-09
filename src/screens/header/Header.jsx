@@ -6,16 +6,15 @@ function Header() {
     return (
         <div className="main-info" >
             <h1 >
-                What am I?
+                What am I doing?
             </h1>
 
             <Typed
                 strings={[
                     '',
-                    'Web developer',
-                    'Student',
-                    'Coder',
-                    'Soul',
+                    'Web development',
+                    'Studying',
+                    'Coding',
                     ''
                 ]}
                 typeSpeed={40}
