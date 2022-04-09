@@ -5,6 +5,8 @@ import Particles from 'react-tsparticles';
 import Header from './screens/header/Header';
 import AboutMe from "./screens/aboutMe/AboutMe";
 import Technologies from "./screens/technologies/Technologies";
+import Portfolio from "./screens/portfolio/Portfolio";
+import Contact from "./screens/contact/Contact"
 
 
 function App() {
@@ -74,9 +76,10 @@ function App() {
           },
         }}
       />
-
       <AboutMe />
       <Technologies />
+      <Portfolio />
+      <Contact />
     </div>
   );
 }
