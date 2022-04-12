@@ -1,27 +1,21 @@
-import portFolioAnimation from '../images/projectsicon/portFolioAnimation.gif'
+import portfolio from '../images/projectsicon/portfolio.gif'
+import minesweepergif from '../images/projectsicon/minesweeper.gif'
 
 
 const portfolioData = [
     {
-        image: portFolioAnimation,
+        image: portfolio,
         link: 'https://github.com/thansgit/portfolio',
         desc: 'portfolio',
         summary: 'An app displaying portfolio',
-        tech: 'React, css'
+        tech: 'React, Bootstrap, CSS'
     },
     {
-        image: portFolioAnimation,
-        link: 'https://github.com/thansgit/portfolio',
-        desc: 'portfolio',
-        summary: 'An app displaying portfolio',
-        tech: 'React, css'
-    },
-    {
-        image: portFolioAnimation,
-        link: 'https://github.com/thansgit/portfolio',
-        desc: 'portfolio',
-        summary: 'An app displaying portfolio',
-        tech: 'React, css'
+        image: minesweepergif,
+        link: 'https://github.com/thansgit/minesweeper_gui',
+        desc: 'minesweeper gui',
+        summary: 'Graphical user interface for minesweeper game',
+        tech: 'C++17, QT'
     },
 ]
 
