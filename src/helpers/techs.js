@@ -25,4 +25,8 @@ export const techs = [
         name:'Github',
         iconName:'github'
     },
+    {
+        name:'C++',
+        iconName:'c++'
+    },
 ]

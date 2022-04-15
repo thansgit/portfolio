@@ -4,7 +4,7 @@ import person from '../../images/person-placeholder.jpg'
 
 function AboutMe() {
   return (
-    <div className="about__container" id="about-me">
+    <div className="about__container" id="about-me" >
       <div >
         <img src={person} alt="person"></img>
       </div>

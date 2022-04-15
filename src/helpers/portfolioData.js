@@ -1,5 +1,6 @@
 import portfolio from '../images/projectsicon/portfolio.gif'
-import minesweepergif from '../images/projectsicon/minesweeper.gif'
+import minesweeper from '../images/projectsicon/minesweeper.gif'
+import todo from '../images/projectsicon/todo.gif'
 
 
 const portfolioData = [
@@ -11,11 +12,18 @@ const portfolioData = [
         tech: 'React, Bootstrap, CSS'
     },
     {
-        image: minesweepergif,
+        image: minesweeper,
         link: 'https://github.com/thansgit/minesweeper_gui',
         desc: 'minesweeper gui',
         summary: 'Graphical user interface for minesweeper game',
         tech: 'C++17, QT'
+    },
+    {
+        image: todo,
+        link: 'https://github.com/thansgit/to-do',
+        desc: 'to-do',
+        summary: 'To-Do list with backend database',
+        tech: 'React, Express, Mongoose, MongoDB'
     },
 ]
 
