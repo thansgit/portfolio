@@ -1,6 +1,6 @@
 import React from 'react'
 import './aboutMe.css'
-import person from '../../images/person-placeholder.jpg'
+import person from '../../images/me.jpg'
 
 function AboutMe() {
   return (
@@ -11,7 +11,7 @@ function AboutMe() {
       <div className="about__text">
           <h1>ABOUT ME</h1>
           <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            Hi! I'm Timo, an IT student, and a software developer from Tampere. I am actively expanding my skills on the field and am currently focused on web-development. I am looking to turn my interest in a career. 
           </p>
       </div>
     </div>
