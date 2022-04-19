@@ -11,7 +11,7 @@ function AboutMe() {
       <div className="about__text">
           <h1>ABOUT ME</h1>
           <p>
-            Hi! I'm Timo, an IT student, and a software developer from Tampere. I am actively expanding my skills on the field and am currently focused on web-development. I am looking to turn my interest in a career. 
+            Hi! I'm Timo, an IT student, and a software developer from Tampere. I am actively expanding my skills on the field and am currently focused on web-development. I am currently looking to turn my interest in a career. 
           </p>
       </div>
     </div>
