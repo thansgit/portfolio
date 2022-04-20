@@ -22,7 +22,7 @@ function Contact() {
                     {createLinks()}
                 </div>
             </div>
-            <div style={{textAlign:"center"}}>Copyright&copy; {new Date().getFullYear()} All rights reserved</div>
+            <div style={{textAlign:"center"}}>Copyright&copy; {new Date().getFullYear()} All rights NOT reserved</div>
         </div>
     )
 }
