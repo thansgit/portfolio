@@ -14,7 +14,8 @@ function Header() {
                     '',
                     'Web development',
                     'Studying',
-                    'Coding',
+                    'Programming',
+                    'Googling',
                     ''
                 ]}
                 typeSpeed={40}
