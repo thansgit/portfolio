@@ -29,4 +29,8 @@ export const techs = [
         name:'C++',
         iconName:'c++'
     },
+    {
+        name:'MongoDB',
+        iconName:'mongodb'
+    }
 ]
